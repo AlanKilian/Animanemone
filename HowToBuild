@@ -1,0 +1,11 @@
+cc -c ripple.c 
+cc -c testripple.c
+cc -o testripple testripple.o ripple.o -lm
+
+cc -c ripple.c 
+cc -c poppers.c
+cc -o poppers poppers.o ripple.o -lm
+
+cc -c ripple.c 
+cc -c drops.c
+cc -o drops drops.o ripple.o -lm

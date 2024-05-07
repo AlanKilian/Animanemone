@@ -1,0 +1,13 @@
+#!/bin/tcsh -x
+while 1
+  ./poppers 100 45 20
+  ./testripple 0 350 350 30
+  ./poppers 3000 100 20
+  ./testripple 0 1000 1000 30
+  ./drops 100 200 1000 15
+  ./testripple 0 350 500 30
+  ./testripple 0 2500 500 30
+  ./poppers 30 10 20
+  ./testripple 0 250 100 30
+  ./drops 500 200 1000 15
+end
