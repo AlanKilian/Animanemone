@@ -1,2 +1,1 @@
-# Animanemone
- Source for the display at Artisans Asylum
+# Animanemone Source for the display at Artisans Asylum This version runs on a Raspberry PI using GPIO pins
