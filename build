@@ -1,0 +1,1 @@
+cc -o testspeed testspeed.c -lpi-gpio
